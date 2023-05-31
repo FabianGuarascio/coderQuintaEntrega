@@ -1,0 +1,79 @@
+[
+  {
+    "id": 1,
+    "title": "naranjuuu",
+    "description": "Alimento nutritivo",
+    "price": 200,
+    "thumbnail": ["https://img"],
+    "code": "NA",
+    "stock": 25,
+    "status": true,
+    "category": "Alimento"
+  },
+  {
+    "id": 2,
+    "title": "Manzana",
+    "description": "Alimento nutritivo esferoide",
+    "price": 300,
+    "thumbnail": ["https://img"],
+    "code": "ZA",
+    "stock": 52,
+    "status": true,
+    "category": "Alimento"
+  },
+  {
+    "id": 3,
+    "title": "Zapato",
+    "description": "Calzado profesional",
+    "price": 2000,
+    "thumbnail": ["https://img"],
+    "code": "ZP",
+    "stock": 2,
+    "status": true,
+    "category": "Ropa"
+  },
+  {
+    "id": 4,
+    "title": "Cartas",
+    "description": "Juego de mesa utilizado en los finde semana",
+    "price": 200,
+    "thumbnail": ["https://img"],
+    "code": "CA",
+    "stock": 90,
+    "status": true,
+    "category": "Juego"
+  },
+  {
+    "id": 5,
+    "title": "Traje de dinosaurio",
+    "description": "Traje para fiestas",
+    "price": 20000,
+    "thumbnail": ["https://img"],
+    "code": "DN",
+    "stock": 9,
+    "status": true,
+    "category": "Juego"
+  },
+  {
+    "id": 6,
+    "title": "Bandera de Argentina",
+    "description": "Bandera para alentar a la seleccion de football",
+    "price": 3000,
+    "thumbnail": ["https://img"],
+    "code": "AR",
+    "stock": 900,
+    "status": true,
+    "category": "Utileria"
+  },
+  {
+    "id": 7,
+    "title": "TV 80 pulgadas",
+    "description": "Television gigante",
+    "price": 90000000,
+    "thumbnail": ["https://img"],
+    "code": "TV",
+    "stock": 1,
+    "status": true,
+    "category": "Electro"
+  }
+]

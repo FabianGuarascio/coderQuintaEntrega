@@ -1,0 +1,53 @@
+<h1>productos </h1>
+<div class="products_container">
+  {{#each prod}}
+    <div class='product_card'>
+      <div class='card_header'>
+        <h4>{{this.title}}</h4>
+      </div>
+      <div class='card_body'>
+        <p>Descripcion: {{this.description}}</p>
+        <p>Code: {{this.code}}</p>
+        <p>Stock: {{this.stock}}</p>
+        <p>Categoria: {{this.category}}</p>
+      </div>
+      <div class='card_footer'>
+        <p>{{this.price}}</p>
+
+      </div>
+    </div>
+  {{/each}}
+
+</div>
+
+<style>
+  body{ background-color: cadetblue; }
+  .products_container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .product_card{ 
+    border:solid black 1px;
+    position: relative;
+    height: 100%;
+    margin:10px;
+    max-width: 500px;
+  } 
+  .card_header {
+    background-color: beige;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  h4{
+    margin: 0;
+  }
+  p{
+    background-color: antiquewhite;
+    margin: 0;
+    border: solid black 1px;
+    padding: 0.5rem;
+  }
+</style>
